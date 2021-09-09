@@ -13,7 +13,8 @@ async function startApolloServer() {
   // create a new Apollo server and pass in our schema data
   const server = new ApolloServer({
     typeDefs,
-    resolvers
+    resolvers,
+    context: ({ req }) => req.headers
   });
 
   await server.start();
