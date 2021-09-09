@@ -3,6 +3,14 @@ const { signToken } = require('../utils/auth');
 
 const resolvers = {
   Query: {
+    me: async (parent, args) => {
+      const userData = await User.findOne({})
+        .select('-__v -password')
+        .populate('thoughts')
+        .populate('friends');
+  
+      return userData;
+    },
     thought:async(parent,{_id})=>{
       return Thought.findOne({_id});
     },
