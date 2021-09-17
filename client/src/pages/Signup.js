@@ -73,7 +73,7 @@ const handleFormSubmit = async event => {
                 Submit
               </button>
             </form>
-            {/* {error && <div>Sign up failed</div>} */}
+            {error && <div>Sign up failed</div>} 
           </div>
         </div>
       </div>
