@@ -45,7 +45,7 @@ This is a full-stack MERN app using a GraphQL API and Apollo Server for interact
 
 ## Contact
 Please visit my **[GitHub profile](https://github.com/FarnoushYousefi/)** to check out this and other projects I've created and contributed to.
-Contact me at **thomaschestnut00@gmail.com** with any questions or if you'd like to collaborate.
+Contact me at **farnoushyousefik@gmail.com** with any questions or if you'd like to collaborate.
 
 ## Links
 - **[Deployed App](https://deepthoughts-tc.herokuapp.com/)**
