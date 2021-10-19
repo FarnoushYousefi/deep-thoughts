@@ -1,68 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Deep Thoughts
 
-## Available Scripts
+<a href="https://deepthoughts-tc.herokuapp.com/">![Deployed App](https://img.shields.io/badge/Deployed%20App-blue.svg)</a> <a href=./LICENSE>![License](https://img.shields.io/badge/License%3A-MIT-green.svg)</a>  
 
-In the project directory, you can run:
+## Description
+Deep Thoughts is a social media app where users can create thoughts, add reactions to other users' thoughts, and add other users to their friend list. Users can also view their own profile with their thoughts listed out, or view other users' profiles with all of their thoughts listed.
 
-### `npm start`
+This is a full-stack MERN app using a GraphQL API and Apollo Server for interaction with the database. React was used on the front-end and MongoDB, Mongoose, Express and Node.js on the backend. GraphQL queries and mutations were used to request data and post data.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
+- [Technology Used](#technology-used)
+- [Screenshots](#screenshots)
+- [Contact](#contact)
+- [Links](#links)
+- [License](#license)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Technology Used
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)  
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express)  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)  
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)    
+![Mongoose.js](https://img.shields.io/badge/Mongoose.js-880000?style=for-the-badge)   
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
+![GraphQL](https://img.shields.io/badge/GraphQL-E4405F?style=for-the-badge&logo=graphql)  
+![Apollo Server](https://img.shields.io/badge/Apollo%20Server-8B89CC?style=for-the-badge)   
+![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)  
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)  
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+#### Homepage:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Homepage](./client/src/assets/images/screenshot-1.png)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+#### User Profile:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![User Profile](./client/src/assets/images/screenshot-2.png)
 
-### `npm run eject`
+ #### Single Thought:
+ 
+![Single Thought](./client/src/assets/images/screenshot-3.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact
+Please visit my **[GitHub profile](https://github.com/FarnoushYousefi/)** to check out this and other projects I've created and contributed to.
+Contact me at **thomaschestnut00@gmail.com** with any questions or if you'd like to collaborate.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Links
+- **[Deployed App](https://deepthoughts-tc.herokuapp.com/)**
+- **[GitHub Repo](https://github.com/FarnoushYousefi/deep-thoughts)**
+- **[My Portfolio](https://portfoliofarnoush.herokuapp.com)**
+- **[Connect on LinkedIn](https://www.linkedin.com/in/farnoushyousefi/)**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## License  
+<a href=./LICENSE>![License](https://img.shields.io/badge/License%3A-MIT-green.svg)</a>     
+This app is licensed under the MIT license.
