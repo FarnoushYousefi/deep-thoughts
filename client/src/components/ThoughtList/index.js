@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+//Here we instruct that the ThoughtList component will receive two props: a title and the thoughts array. We destructure the argument data to avoid using props.title and props.thoughts throughout the JSX code.
 
 const ThoughtList = ({ thoughts, title }) => {
   if (!thoughts.length) {

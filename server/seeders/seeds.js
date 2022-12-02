@@ -73,3 +73,5 @@ db.once('open', async () => {
   console.log('all done!');
   process.exit(0);
 });
+//npm run seed  which can be found in the package.json file 
+//

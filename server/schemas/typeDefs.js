@@ -1,5 +1,6 @@
+// import the gql tagged template function
 const { gql } = require('apollo-server-express');
-
+// create our typeDefs
 const typeDefs = gql`
   type User {
     _id: ID
@@ -49,3 +50,4 @@ const typeDefs = gql`
 `;
 
 module.exports = typeDefs;
+// This means that an Auth type must return a token and can optionally include any other user data.
