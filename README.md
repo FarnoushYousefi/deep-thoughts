@@ -48,7 +48,6 @@ Please visit my **[GitHub profile](https://github.com/FarnoushYousefi/)** to che
 Contact me at **farnoushyousefik@gmail.com** with any questions or if you'd like to collaborate.
 
 ## Links
-- **[Deployed App](https://deepthoughts-tc.herokuapp.com/)**
 - **[GitHub Repo](https://github.com/FarnoushYousefi/deep-thoughts)**
 - **[My Portfolio](https://portfoliofarnoush.herokuapp.com)**
 - **[Connect on LinkedIn](https://www.linkedin.com/in/farnoushyousefi/)**
